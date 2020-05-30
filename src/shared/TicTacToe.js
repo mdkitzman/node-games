@@ -12,10 +12,11 @@ function IsVictory(cells) {
 
 // Return true if all `cells` are occupied.
 function IsDraw(cells) {
-  return cells.filter(c => c === null).length == 0;
+  return cells.filter(c => c === null).length === 0;
 }
 
 export const TicTacToe = {
+  
   setup: () => ({ cells: Array(9).fill(null) }),
 
   turn: {
