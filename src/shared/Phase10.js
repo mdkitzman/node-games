@@ -15,6 +15,10 @@ const stack = (cards) => ({
     pop() { return cards.pop(); }
 });
 
+const card = (data) => ({
+
+});
+
 const removeCard = (cards, card) => {
     let iCard = cards.indexOf(card);
     if (iCard < 0) {
@@ -87,12 +91,6 @@ export const Phase10 = {
             ...setupDeck(ctx),
             players,
         };
-    },
-    moves: {
-        drawCard,
-        discard, 
-        layDownPhaze, 
-        addCardToPlayerPhase
     },
 
     turn: {

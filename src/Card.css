@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid #555;
+    min-width: 80px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.card.face-up {
+    font-size: 3em;
+}
+
+.card.face-up.yellow {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.card.face-up.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.card.face-up.green {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.card.face-up.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+}
